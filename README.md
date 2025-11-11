@@ -3,7 +3,7 @@
 <img src="logo.png" alt="SaveMimi Logo" width="128"/>
 </p>
 
-<h1 align="center">SaveMimi (Video Downloader Pro)</h1>
+<h1 align="center">SaveMimi (Video Downloader)</h1>
 
 <p align="center">
 A modern, futuristic desktop application for downloading videos and music from various online platforms.
