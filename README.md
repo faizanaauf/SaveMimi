@@ -13,16 +13,16 @@ A modern, futuristic desktop application for downloading videos and music from v
 TODO: Take a screenshot of your app, add it to your repo,
 and replace the link below.
 -->
-<img src="[LINK_TO_YOUR_APP_SCREENSHOT.png]" alt="Application Screenshot" width="700">
+<img src="[Screenshot.png]" alt="Application Screenshot" width="700">
 </p>
 
-About The Project
+## About The Project
 
 SaveMimi is a powerful, standalone desktop tool for Windows that allows you to download videos and audio from your favorite platforms, including YouTube, YouTube Music, Facebook, and Instagram.
 
 It is built with a sleek, futuristic UI and features a "smart" engine that checks your system's hardware capabilities before you download. This ensures you always get the best quality file your computer can handle without the risk of slow performance or errors.
 
-Features
+## Features
 
 Multi-Platform Support: Works with YouTube, Facebook, Instagram, and thousands of other sites.
 
@@ -38,7 +38,7 @@ Guaranteed Audio: The smart merging engine fixes the "no sound" error common in 
 
 Standalone Tool: The final .exe is a single, portable file. No Python or FFmpeg installation is required on the user's machine.
 
-🚀 How to Use
+## 🚀 How to Use
 
 Download the Tool:
 
