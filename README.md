@@ -1,67 +1,61 @@
 <p align="center">
-<!-- Make sure you have added logo.png to your repository! -->
 <img src="logo.png" alt="SaveMimi Logo" width="128"/>
 </p>
 
-<h1 align="center">SaveMimi (Video Downloader)</h1>
+<h1 align="center">SaveMimi v2.0 — Universal Downloader</h1>
 
 <p align="center">
-A modern, futuristic desktop application for downloading videos and music from various online platforms.
+A modern, futuristic desktop application serving as a powerful YouTube video grabber and a high-speed, IDM-style software downloader.
 <br />
 <br />
-<!--
-TODO: Take a screenshot of your app, add it to your repo,
-and replace the link below.
--->
-<img src="https://github.com/faizanaauf/SaveMimi/blob/64549c38de8ea8238128dfdc50177b1ee527419c/Screenshot.png" alt="Application Screenshot" width="700">
+<img src="https://github.com/faizanaauf/SaveMimi/blob/main/Screenshot%20(237).png" alt="Video Downloader UI" width="700">
+<br />
+<img src="https://github.com/faizanaauf/SaveMimi/blob/main/Screenshot%20(238).png" alt="Software Downloader UI" width="700">
 </p>
 
-## About The Project
+## 🌟 About The Project
 
-SaveMimi is a powerful, standalone desktop tool for Windows that allows you to download videos and audio from your favorite platforms, including YouTube, YouTube Music, and Instagram.
+SaveMimi v2.0 is a powerful, standalone desktop tool for Windows that completely overhauls the downloading experience. It features a sleek, dual-mode interface designed to handle your two biggest needs: pulling high-quality media from YouTube, and downloading direct files (software, ISOs, ZIPs) at maximum speed. 
 
-It is built with a sleek, futuristic UI and features a "smart" engine that checks your system's hardware capabilities before you download. This ensures you always get the best quality file your computer can handle without the risk of slow performance or errors.
+Built with a "smart" engine, SaveMimi checks your system's hardware capabilities before processing 4K/8K videos to prevent crashes, while its custom multi-connection file downloader mimics the blistering speeds of traditional download managers.
 
-## Features
+## ✨ Features
 
-Multi-Platform Support: Works with YouTube, Facebook, Instagram, and thousands of other sites.
+**🎬 Video Downloader Mode**
+* **Total YouTube Support:** Download any video or audio from YouTube, from 144p all the way up to 8K (4320p) UHD.
+* **Smart Hardware Check:** Automatically detects your system's hardware decoders (NVIDIA NVENC, Intel Quick Sync, AMD AMF).
+* **Safe Quality Selection:** If you select a high-resolution format (4K/8K) that your system may struggle to process, the tool provides a clear, non-intrusive warning.
+* **Thumbnail & Title Preview:** Instantly verifies your link with a rich UI preview before you commit to downloading.
+* **Guaranteed Audio:** The smart merging engine fixes the notorious "no sound" error found in other downloaders by automatically handling advanced codec merging.
 
-High-Resolution Support: Capable of fetching all formats, from 144p audio up to 8K (4320p) video.
+**💾 Software & File Downloader Mode**
+* **IDM-Style Speeds:** Uses a multi-connection, chunk-based downloading engine to max out your internet bandwidth for direct file links (`.exe`, `.zip`, `.iso`, `.mp4`, etc.).
+* **Pause & Resume:** Safely pause your large downloads and resume them later without data corruption.
+* **Session Persistence:** Close the app, shut down your PC, and come back tomorrow. SaveMimi remembers your queue and picks up exactly where it left off.
+* **Auto-Retry:** If your internet connection drops, the app won't crash. It simply waits for the connection to return and continues downloading.
 
-Smart Hardware Check: Automatically detects your system's hardware decoders (NVIDIA, Intel Quick Sync, AMD).
+**⚙️ Core Architecture**
+* **Zero Dependencies:** The final `.exe` is a single, portable file. No Python, no command-line tools, and no manual FFmpeg installation required on the user's machine.
 
-Clear System Warnings: If you select a high-resolution format (4K/8K) that your system may struggle to process, the tool provides a clear, non-intrusive warning in the quality dropdown.
-
-Thumbnail & Title Preview: After fetching a link, the tool displays the video's title and thumbnail so you can confirm you have the right content.
-
-Guaranteed Audio: The smart merging engine fixes the "no sound" error common in other downloaders. It automatically re-encodes audio to the universally compatible aac codec when merging.
-
-Standalone Tool: The final .exe is a single, portable file. No Python or FFmpeg installation is required on the user's machine.
+---
 
 ## 🚀 How to Use
 
-Download the Tool:
+### 1. Get the App
+1. Go to the **[Releases Page](../../releases)** of this repository.
+2. Download the latest `SaveMimi.exe` file.
+3. Since the tool is entirely portable, **no installation is needed**. Just double-click the `.exe` to run it!
 
-Go to the Releases Page of this repository.
+### 2. Downloading Videos
+1. Click the **"Video Downloader"** tab at the top.
+2. Paste your YouTube URL into the text box.
+3. Click the **"Download"** (Fetch) button.
+4. Wait a moment for the thumbnail and quality list to appear.
+5. Select your desired resolution from the dropdown menu and proceed. A "Save As..." dialog will let you choose your destination.
 
-Download the latest SaveMimi.exe file.
-
-Run the App:
-
-Since the tool is portable, no installation is needed.
-
-Just double-click SaveMimi.exe to run it.
-
-Download Your Video:
-
-Paste your video URL (from YouTube, Instagram, etc.) into the text box.
-
-Click the "Fetch" button.
-
-Wait a moment for the thumbnail and quality list to appear.
-
-Select your desired resolution from the dropdown menu.
-
-Click the "Download" button.
-
-A "Save As..." dialog will open. Choose where you want to save the file, and the download will begin.
+### 3. Downloading Software / Direct Files
+1. Click the **"Software Downloader"** tab at the top.
+2. Paste a direct download URL (e.g., a link ending in `.zip` or `.exe`) into the text box.
+3. Click **"Add Download"**.
+4. Choose where to save the file. The download will appear as an elegant card in your queue below.
+5. Use the controls on the card to pause, resume, or monitor your download speed and ETA.
