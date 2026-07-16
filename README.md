@@ -8,9 +8,9 @@
 A modern, futuristic desktop application serving as a powerful YouTube video grabber and a high-speed, IDM-style software downloader.
 <br />
 <br />
-<img src="https://github.com/faizanaauf/SaveMimi/blob/main/Screenshot%20(237).png" alt="Video Downloader UI" width="700">
+<img src="Screenshot (247).png" alt="Video Downloader UI" width="700">
 <br />
-<img src="https://github.com/faizanaauf/SaveMimi/blob/main/Screenshot%20(238).png" alt="Software Downloader UI" width="700">
+<img src="Screenshot (248).png" alt="Software Downloader UI" width="700">
 </p>
 
 ## 🌟 About The Project
