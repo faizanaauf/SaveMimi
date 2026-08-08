@@ -2,7 +2,7 @@
 <img src="logo1.png" alt="SaveMimi Logo" width="240"/>
 </p>
 
-<h1 align="center">SaveMimi v2.0 — Universal Downloader</h1>
+<h1 align="center">SaveMimi v2.2 — Universal Downloader</h1>
 
 <p align="center">
 A modern, futuristic desktop application serving as a powerful YouTube video grabber and a high-speed, IDM-style software downloader.
@@ -15,7 +15,7 @@ A modern, futuristic desktop application serving as a powerful YouTube video gra
 
 ## 🌟 About The Project
 
-SaveMimi v2.0 is a powerful, standalone desktop tool for Windows that completely overhauls the downloading experience. It features a sleek, dual-mode interface designed to handle your two biggest needs: pulling high-quality media from YouTube, and downloading direct files (software, ISOs, ZIPs) at maximum speed. 
+SaveMimi v2.2 is a powerful, standalone desktop tool for Windows that completely overhauls the downloading experience. It features a sleek, dual-mode interface designed to handle your two biggest needs: pulling high-quality media from YouTube, and downloading direct files (software, ISOs, ZIPs) at maximum speed. 
 
 Built with a "smart" engine, SaveMimi checks your system's hardware capabilities before processing 4K/8K videos to prevent crashes, while its custom multi-connection file downloader mimics the blistering speeds of traditional download managers.
 
