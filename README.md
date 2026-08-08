@@ -1,5 +1,5 @@
 <p align="center">
-<img src="logo1.png" alt="SaveMimi Logo" width="240"/>
+<img src="logo.png" alt="SaveMimi Logo" width="240"/>
 </p>
 
 <h1 align="center">SaveMimi v2.2 — Universal Downloader</h1>
