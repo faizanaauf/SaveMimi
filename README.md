@@ -1,61 +1,141 @@
 <p align="center">
-<img src="logo.png" alt="SaveMimi Logo" width="240"/>
+  <img src="logo (2).png" alt="SaveMiMi Windows Download Manager logo" width="190">
 </p>
 
-<h1 align="center">SaveMimi v2.2 — Universal Downloader</h1>
+<h1 align="center">SaveMiMi — Fast Download Manager for Windows</h1>
 
 <p align="center">
-A modern, futuristic desktop application serving as a powerful YouTube video grabber and a high-speed, IDM-style software downloader.
-<br />
-<br />
-<img src="Screenshot (247).png" alt="Video Downloader UI" width="700">
-<br />
-<img src="Screenshot (248).png" alt="Software Downloader UI" width="700">
+  A modern Windows download manager powered by MiMiFlow adaptive download acceleration.
 </p>
 
-## 🌟 About The Project
+<p align="center">
+  <strong>Fast downloads. Adaptive connections. Reliable resume.</strong>
+</p>
 
-SaveMimi v2.2 is a powerful, standalone desktop tool for Windows that completely overhauls the downloading experience. It features a sleek, dual-mode interface designed to handle your two biggest needs: pulling high-quality media from YouTube, and downloading direct files (software, ISOs, ZIPs) at maximum speed. 
-
-Built with a "smart" engine, SaveMimi checks your system's hardware capabilities before processing 4K/8K videos to prevent crashes, while its custom multi-connection file downloader mimics the blistering speeds of traditional download managers.
-
-## ✨ Features
-
-**🎬 Video Downloader Mode**
-* **Total YouTube Support:** Download any video or audio from YouTube, from 144p all the way up to 8K (4320p) UHD.
-* **Smart Hardware Check:** Automatically detects your system's hardware decoders (NVIDIA NVENC, Intel Quick Sync, AMD AMF).
-* **Safe Quality Selection:** If you select a high-resolution format (4K/8K) that your system may struggle to process, the tool provides a clear, non-intrusive warning.
-* **Thumbnail & Title Preview:** Instantly verifies your link with a rich UI preview before you commit to downloading.
-* **Guaranteed Audio:** The smart merging engine fixes the notorious "no sound" error found in other downloaders by automatically handling advanced codec merging.
-
-**💾 Software & File Downloader Mode**
-* **IDM-Style Speeds:** Uses a multi-connection, chunk-based downloading engine to max out your internet bandwidth for direct file links (`.exe`, `.zip`, `.iso`, `.mp4`, etc.).
-* **Pause & Resume:** Safely pause your large downloads and resume them later without data corruption.
-* **Session Persistence:** Close the app, shut down your PC, and come back tomorrow. SaveMimi remembers your queue and picks up exactly where it left off.
-* **Auto-Retry:** If your internet connection drops, the app won't crash. It simply waits for the connection to return and continues downloading.
-
-**⚙️ Core Architecture**
-* **Zero Dependencies:** The final `.exe` is a single, portable file. No Python, no command-line tools, and no manual FFmpeg installation required on the user's machine.
+<p align="center">
+  <a href="../../releases/latest"><strong>Download SaveMiMi</strong></a>
+  ·
+  <a href="../../releases">Releases</a>
+  ·
+  <a href="#mimiflow">MiMiFlow</a>
+  ·
+  <a href="#performance">Performance</a>
+</p>
 
 ---
 
-## 🚀 How to Use
+## SaveMiMi v2.3
 
-### 1. Get the App
-1. Go to the **[Releases Page](../../releases)** of this repository.
-2. Download the latest `SaveMimi.exe` file.
-3. Since the tool is entirely portable, **no installation is needed**. Just double-click the `.exe` to run it!
+SaveMiMi is a high-performance **download manager for Windows** designed to make better use of the bandwidth available from your connection and the download server.
 
-### 2. Downloading Videos
-1. Click the **"Video Downloader"** tab at the top.
-2. Paste your YouTube URL into the text box.
-3. Click the **"Download"** (Fetch) button.
-4. Wait a moment for the thumbnail and quality list to appear.
-5. Select your desired resolution from the dropdown menu and proceed. A "Save As..." dialog will let you choose your destination.
+At its core is **MiMiFlow**, SaveMiMi's adaptive download acceleration system. Instead of relying on one fixed connection configuration, MiMiFlow can adapt download behavior and parallel connections to pursue fast, stable throughput.
 
-### 3. Downloading Software / Direct Files
-1. Click the **"Software Downloader"** tab at the top.
-2. Paste a direct download URL (e.g., a link ending in `.zip` or `.exe`) into the text box.
-3. Click **"Add Download"**.
-4. Choose where to save the file. The download will appear as an elegant card in your queue below.
-5. Use the controls on the card to pause, resume, or monitor your download speed and ETA.
+SaveMiMi supports direct file downloads such as software installers, archives, ISO images, media files, and other downloadable files over supported HTTP/HTTPS servers.
+
+<p align="center">
+  <img src="Screenshot (248).png" alt="SaveMiMi v2.3 download manager interface for Windows" width="850">
+</p>
+
+## ✨ Features
+
+### ⚡ MiMiFlow Adaptive Download Acceleration
+
+MiMiFlow is SaveMiMi's adaptive download system.
+
+It is designed to monitor download conditions and intelligently manage parallel connections and download behavior instead of forcing every server and network to use the same configuration.
+
+MiMiFlow can adapt based on factors such as:
+
+- Current useful download throughput
+- Connection latency
+- Individual connection performance
+- Server behavior
+- Slow download workers
+- Download progress and remaining ranges
+
+MiMiFlow is enabled by default.
+
+### 🔗 Custom Connection Mode
+
+Want manual control?
+
+Disable MiMiFlow and choose a fixed connection configuration:
+
+**1 · 2 · 4 · 8 · 16 · 32 connections**
+
+This provides predictable manual control for servers or networks where you want to select the connection count yourself.
+
+### ⏯️ Pause & Resume Downloads
+
+Pause supported downloads and continue them later without starting from the beginning.
+
+SaveMiMi tracks completed byte ranges so supported downloads can continue from their remaining data.
+
+### 🔄 Restart & Recovery
+
+SaveMiMi is designed to preserve unfinished download state.
+
+If the application closes or the computer restarts, supported unfinished downloads can be recovered and resumed instead of being discarded.
+
+### 🌐 Network Recovery
+
+If your internet connection disappears during a download, SaveMiMi can move the download into a waiting/retry state instead of immediately treating a temporary network problem as a permanent failure.
+
+When connectivity returns, supported downloads can continue from their saved progress.
+
+### 📊 Real-Time Download Information
+
+Monitor downloads with useful live information including:
+
+- Download percentage
+- Current transfer speed
+- Downloaded / total size
+- Estimated time remaining (ETA)
+- Current download state
+- MiMiFlow or Custom mode
+- Active connection information
+
+### 📁 Clean Download Destination
+
+SaveMiMi keeps its internal recovery and download-state information separate from your normal destination folder.
+
+The goal is simple:
+
+**Your download folder contains your file — not a collection of internal resume and metadata files.**
+
+### 🎨 Native Windows Experience
+
+SaveMiMi is designed specifically for Windows with a focused desktop interface featuring:
+
+- Dark theme by default
+- Full Light theme
+- System theme support
+- Responsive sidebar
+- Windows notifications
+- Searchable settings
+- Download history and status filtering
+- Consistent SaveMiMi visual design
+
+---
+
+<a id="mimiflow"></a>
+
+## 🧠 What is MiMiFlow?
+
+Traditional downloading can use a single connection or a fixed number of parallel connections.
+
+MiMiFlow takes a more adaptive approach.
+
+Instead of assuming that one configuration is always fastest, MiMiFlow is designed to adjust download behavior according to current network and server conditions.
+
+```text
+Download URL
+     │
+     ▼
+  MiMiFlow
+     │
+     ├── Connection 1 ──┐
+     ├── Connection 2 ──┤
+     ├── Connection 3 ──┤
+     ├──     ...        ├──► Downloaded File
+     └── Connection N ──┘
