@@ -33,7 +33,7 @@ At its core is **MiMiFlow**, SaveMiMi's adaptive download acceleration system. I
 SaveMiMi supports direct file downloads such as software installers, archives, ISO images, media files, and other downloadable files over supported HTTP/HTTPS servers.
 
 <p align="center">
-  <img src="Screenshot (248).png" alt="SaveMiMi v2.3 download manager interface for Windows" width="850">
+  <img src="Screenshot.png" alt="SaveMiMi v2.3 download manager interface for Windows" width="850">
 </p>
 
 ## ✨ Features
